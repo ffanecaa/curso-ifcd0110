@@ -1,0 +1,81 @@
+@font-face {
+    font-family: letra;
+    src: url(assets/Olives/OlivessansPimiento.ttf);
+}
+.cabecera {
+    background-color: #E1C03E;
+    overflow: hidden;
+}
+
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    hidgt: 10px;
+}
+
+.title {
+    text-align: right;
+  color:white;
+    padding: 30px;
+
+}
+
+.links {
+    position: relative;
+    top: 30px;
+    left: 300px;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    color:white;
+    text-decoration:none;
+
+}
+a{
+    color:white;
+    text-decoration:none;
+    font-size: 3rem;
+    font-family:letra;
+    padding-right: 40px;
+}
+titulo {
+    text-align: center;
+    color: #D14F4F;
+    font-size: 50px;
+    font-family: sans-serif;
+    margin: 10px;}
+
+.container {
+   
+  display: table;
+  /*clear: both;*/
+  margin-top: 50px;
+}
+
+.texto {
+    
+    float: left;
+  width: 39.33%;
+  padding: 40px;
+}
+
+
+
+@media screen and (max-width: 600px) 
+    .texto {
+      width: 200%;}
+
+
+
+
+
+.pie{
+
+    ;
+    text-align:center;
+    
+    overflow: hidden;
+    margin-top: 100px;
+}
