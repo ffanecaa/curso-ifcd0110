@@ -5,13 +5,15 @@
 .cabecera {
     background-color: #E1C03E;
     overflow: hidden;
+    width: 8rem;
+
 }
 
 .logo {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100vw;
+    width: 100%;
     hidgt: 10px;
 }
 
@@ -63,9 +65,10 @@ titulo {
 
 
 
-@media screen and (max-width: 600px) 
+/*@media screen and (max-width: 600px) 
     .texto {
-      width: 200%;}
+      width: 200%;*/
+    
 
 
 
@@ -73,7 +76,7 @@ titulo {
 
 .pie{
 
-    ;
+    
     text-align:center;
     
     overflow: hidden;
