@@ -9,7 +9,7 @@ body{
 }
 .words span {
     font-size: 5rem;
-    display: inline-block;
+   /* display: inline-block;*/
     animation: move 3s ease-in-out infinite ;
 }
 @keyframes move { 
