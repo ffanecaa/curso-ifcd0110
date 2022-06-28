@@ -1,0 +1,50 @@
+body{
+    background-image: url(bandera.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+header{
+    display: block;
+    margin-top: 100px;
+    margin-left: 40%;
+
+    
+    
+}
+a{
+    color: azure;
+    border: 1px solid rgba(166, 166, 226, 0.3);
+    padding: 10px 20px;
+    display:inline-block;
+    margin-left: 50px;
+    text-decoration: none;
+}
+a:hover{
+    color:brown;
+    border: 2px dotted rgb(0, 255, 34);
+    transform:scale(2);
+    text-transform: uppercase;
+
+}
+.texto{
+    display: flex;
+    margin: 50px ;
+
+}
+.titu{
+    color: white;
+    margin-top: 10%;
+    text-align: center;
+    font-size: 3em;
+    text-shadow: 5px 5px 10px red;
+}
+.titulo{
+    color: white;
+    margin-top: 5%;
+    text-align: center;
+    font-size: 3em;
+    text-shadow: 5px 5px 10px red;
+}
