@@ -51,11 +51,9 @@ animation-delay: 0;
 color:white;
 }
 @keyframes titulo{
-  0%{ 
-     transform: scale(.9);
-background-color: brown;
-}
-50%{
-    transform: scale(1.5);
-}
+    0%   {background-color:red; left:0px; top:0px;} 
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
 }

@@ -1,37 +1,40 @@
-body{
+.fondo0{
     background-image: url(bandera.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    margin-top: 0;
     width: 100%;
     height: 100vh;
 }
 header{
     display: block;
-    margin-top: 100px;
+    margin-top: 10&;
     margin-left: 40%;
 
-    
-    
 }
 a{
     color: azure;
-    border: 1px solid rgba(166, 166, 226, 0.3);
+    border: 2px solid rgba(166, 166, 226, 0.3);
     padding: 10px 20px;
     display:inline-block;
-    margin-left: 50px;
+    margin-left: 20px;
+    margin-top: 40px;
     text-decoration: none;
 }
 a:hover{
     color:brown;
-    border: 2px dotted rgb(0, 255, 34);
+    border: 2px solid rgb(98, 0, 255);
     transform:scale(2);
     text-transform: uppercase;
+    width: 60px;
 
 }
 .texto{
     display: flex;
     margin: 50px ;
+    
+   
 
 }
 .titu{
@@ -41,10 +44,67 @@ a:hover{
     font-size: 3em;
     text-shadow: 5px 5px 10px red;
 }
+.titu0{
+    color: white;
+    margin-top: 10%;
+    text-align: right;
+    font-size: 3em;
+    text-shadow: 5px 5px 10px red;
+    margin-right: 10%;}
+
 .titulo{
     color: white;
     margin-top: 5%;
     text-align: center;
-    font-size: 3em;
+    font-size: 2em;
     text-shadow: 5px 5px 10px red;
 }
+.titulo0{
+    color: white;
+    margin-top: 5%;
+    text-align: right;
+    font-size: 5em;
+    text-shadow: 5px 5px 10px red;
+    margin-right: 10%;
+}
+
+.fondo2{
+    background-image: url(pizza.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    margin:0;
+}
+#mov0 {
+
+border-radius: 20%;
+position:relative;
+animation-name: caso;
+  animation-duration: 3s;  
+  animation-fill-mode: forwards;
+
+
+}
+
+@keyframes caso{
+    from {top: 0px;}
+    to {top: 200px; text-shadow: 5px 5px 10px rgb(0, 255, 64);}
+  }
+  #mov {
+
+    border-radius: 20%;
+    position:relative;
+    animation-name: casos;
+      animation-duration: 3s;  
+      animation-fill-mode: forwards;
+    
+    
+    }
+    
+    @keyframes casos{
+        from {top: 0px;}
+        to {top: 200px; text-shadow: 5px 5px 10px rgb(94, 255, 0);}
+
+    }
