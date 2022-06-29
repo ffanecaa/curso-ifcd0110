@@ -26,7 +26,7 @@
 @keyframes sol{
     0%{ left:-50px; top:30%;}
     50%{ left:50%; top:5%; background-color: rgb(226, 152, 40);}
-100%{ left:100%; top:30%; background-color: beige;box-shadow: 0px 0px 0px  10px  rgb(216, 226, 80); }
+100%{ left:100%; top:30%; background-color: beige;box-shadow: 0px 0px 0px  10px  rgb(103, 104, 102); }
 }
 @keyframes fondo{
     50%{background-color: rgba(50, 50, 122, 0.8) ;}
