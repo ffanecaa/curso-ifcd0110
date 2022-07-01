@@ -1,3 +1,40 @@
 .exterior{
     background-color: rgb(33, 94, 33);
+    position: relative;
+    width: 800px;
+    height: 800px;
+    border-radius: 50%;
 }
+.blanco{
+    background-color: beige;
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    top:100px;
+    left: 100px;
+    border-radius: 50%;
+}
+
+.interior{
+    background-color: rgb(234, 97, 38);
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top:100px;
+    right:100px;
+    border-radius: 50%;
+    
+}
+span{ 
+  position:absolute;
+  top: 40%;
+  right:25%;
+  color: beige;
+  font-family: sans-serif;
+  font-size: 3em;
+  font-weight: 800;
+  
+
+}
+
+
