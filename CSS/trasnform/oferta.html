@@ -15,10 +15,65 @@
         <a href="oferta.html">oferta</a>
         
     </header>
-  <div class="texto">
-  </div>
-   <h2 class="titu0">pizza rica</h2> <br>
-   <h1 class="titulo0">solo 1.50</h1> 
+  
+   <form >
+    <ul>
+        <h2>Envíanos tus datos</h2>
+        <h1>Cubre el formulario</h1>
+        <li>
+            <label for="nombre"><span >*</span> Tu nombre</label><br>
+            <input id="nombre" type="text" name="nombre" required>
 
+        </li>
+        <li>
+            <label for="edad">Tu edad</label><br>
+            <input id="edad"type="number" name="edad">
+
+        </li>
+        <li>
+            <label for="email"><span>*</span> Email</label><br>
+            <input type="email" name="email" required>
+
+        </li>
+        <li>
+            <label for="telefono">Tefefono</label><br>
+           <input id="telefono"type="tel" maxlength="9">
+        </li>
+        <li>
+            
+            <span>*</span> ¿Cómo vendrás al centro?
+            <br>
+            <input type="radio" id="vehiculo" name="transporte" value="vehiculo" required>
+            <label for="vehiculo">Tengo vehículo</label><br>
+            <input type="radio" id="andando" name="transporte" value="andando">
+            <label for="andando">Voy andando</label>
+        </li>
+        <li>
+            ¿ Qué vehículos tienes ?<br>
+            <input type="checkbox" id="coche" name="vehiculo" value="coche">
+            <label for="coche">Tengo coche</label><br>
+            <input type="checkbox" id="moto" name="vehiculo" value="moto">
+            <label for="moto">Tengo moto </label><br>
+            <input type="checkbox" id="patinete" name="vehiculo" value="patinete">
+            <label for="patinete">Tengo patinete</label>
+        </li>
+        <li>
+            ¿Qué curso quieres?
+            <label for="curso">Elige uno</label>
+
+            <select name="curso" id="curso">
+                <option value="">Elige uno...</option>
+                <option value="HTML">HTML</option>
+                <option value="CSS">CSS</option>
+                <option value="JS">JAVASCRIPT</option>
+            </select>
+        </li><br>
+        <li>
+
+            <input type="submit" value="Enviar">
+
+        </li>
+    </ul>
+</form>
 </body>
 </html>

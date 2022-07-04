@@ -140,3 +140,29 @@ animation-name: caso;
                 to {top: 0px; text-shadow: 5px 5px 10px rgb(49, 47, 53);}
         
             }
+            ul{
+                color:white;
+                text-align:center
+            }
+            ul h1, ul h2{
+                text-shadow: 5px 5px 5px red;
+            }
+
+            span{
+              color:red;
+            }
+            li{
+                display:inline-block;
+                margin: 5px;
+                height: 60px;
+                border: 1px solid red;
+                padding: 15px;
+                color:rgb(240, 8, 8);
+                font-weight: bold;
+                overflow: hidden;
+                box-shadow: 2px 2px 1px rgb(160, 101, 101);
+            }
+            input{
+                padding: 10px;
+                float: right;
+            }

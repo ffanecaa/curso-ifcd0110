@@ -4,6 +4,9 @@
 /*
 	Forty by HTML5 UP
 	html5up.net | @ajlkn
+
+
+
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
@@ -2831,23 +2834,23 @@ input, select, textarea {
 			}
 
 			.tiles article:nth-child(6n - 5):before {
-				background-color: #0f381b;
+				background-color: #aa6b5d;
 			}
 
 			.tiles article:nth-child(6n - 4):before {
-				background-color: #68887e;
+				background-color: #197c53;
 			}
 
 			.tiles article:nth-child(6n - 3):before {
-				background-color: #316b50;
+				background-color: #407967;
 			}
 
 			.tiles article:nth-child(6n - 2):before {
-				background-color: #2b3f2e;
+				background-color: #c07451;
 			}
 
 			.tiles article:nth-child(6n - 1):before {
-				background-color: #1f794f;
+				background-color: #e7a07f;
 			}
 
 			.tiles article:nth-child(6n):before {
@@ -3380,7 +3383,7 @@ input, select, textarea {
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		background-image: url("../../images/mod-logo.jpg");
+		/*background-image: url("../../images/mod-logo.jpg");*/
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3400,6 +3403,8 @@ input, select, textarea {
 		position: relative;
 		top: -4.25em;
 	}
+	
+	
 
 		#banner:after {
 			-moz-transition: opacity 2.5s ease;
@@ -3424,7 +3429,9 @@ input, select, textarea {
 		}
 
 		#banner h1 {
-			font-size: 3.25em;
+			font-size: 20em;
+			font-family: Arial, Helvetica, sans-serif;
+			color:#74dbab
 		}
 
 		#banner > .inner {
@@ -3492,15 +3499,15 @@ input, select, textarea {
 			}
 
 		#banner.style1:after {
-			background-color: #6fc3df;
+			background-color: #991C00;
 		}
 
 		#banner.style2:after {
-			background-color: #8d82c4;
+			background-color: #991C00;
 		}
 
 		#banner.style3:after {
-			background-color: #ec8d81;
+			background-color: #991C00;
 		}
 
 		#banner.style4:after {
@@ -3950,4 +3957,34 @@ input, select, textarea {
 			transform: none;
 			opacity: 1;
 			visibility: visible;
+		}
+		.exterior{
+			background-color: rgb(79, 167, 79);
+			position: relative;
+			height: 900px;
+			width: 900px;
+			margin:40px;
+			border-radius: 50%;
+			border:1px solid #991C00;
+		   
+		}
+		
+		.blanco{
+			background-color: rgb(221, 221, 161);
+			position: absolute;
+			top:200px;
+			right:200px;
+			width: 500px;
+			height:500px;
+			border-radius: 50%;
+			
+		}
+		.interior{
+			background-color: rgba(153, 28, 0, 0.5);
+			position: absolute;
+			top:100px;
+			right: 100px;
+			width: 300px;
+			height: 300px;
+			border-radius: 50%;
 		}
