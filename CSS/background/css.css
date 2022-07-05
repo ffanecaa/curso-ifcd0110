@@ -23,9 +23,11 @@ a{
     text-decoration: none;
     background-color: rgb(248, 255, 240);
     opacity: 0.8;
+  
 }
-a:hover{
-    color:rgb(209, 38, 38);
+
+
+ a:hover{   
     border: 2px solid rgb(157, 255, 0);
     border-radius: 25%;
     transform:rotate(2);
@@ -145,10 +147,14 @@ animation-name: caso;
             }
             ul{
                 color:white;
-                text-align:center
+                text-align:center width:90%;
+               
+
+                
             }
             ul h1, ul h2{
                 text-shadow: 5px 5px 5px red;
+
             }
 
             span{
@@ -164,8 +170,10 @@ animation-name: caso;
                 font-weight: bold;
                 overflow: hidden;
                 box-shadow: 2px 2px 1px rgb(160, 101, 101);
+               
             }
             input{
                 padding: 10px;
                 float: right;
+               
             }
