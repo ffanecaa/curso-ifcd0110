@@ -1777,25 +1777,25 @@ input, select, textarea {
 		width: -webkit-max-content;
 		width: -ms-max-content;
 		width: max-content;
-		margin-bottom: 2em;
+		margin-bottom: 1em;
 	}
 
 		header.major > :first-child {
 			margin-bottom: 0;
 			width: calc(100% + 0.5em);
 		}
-
+/*gnera rayas*/
 			header.major > :first-child:after {
 				content: '';
-				background-color: #ffffff;
+				background-color: #cd2727;
 				display: block;
-				height: 2px;
+				height: 4px;
 				margin: 0.325em 0 0.5em 0;
 				width: 100%;
 			}
 
 		header.major > p {
-			font-size: 0.7em;
+			font-size: 1em;
 			font-weight: 600;
 			letter-spacing: 0.25em;
 			margin-bottom: 0;
@@ -1916,7 +1916,7 @@ input, select, textarea {
 		appearance: none;
 		background: rgba(212, 212, 255, 0.035);
 		border: none;
-		border-radius: 0;
+		border-radius: 0%;
 		color: inherit;
 		display: block;
 		outline: 0;
@@ -2295,7 +2295,7 @@ input, select, textarea {
 			-webkit-justify-content: center;
 			-ms-justify-content: center;
 			justify-content: center;
-			width: 100%;
+			width: 80%;
 			margin-left: 0;
 		}
 
@@ -3383,7 +3383,11 @@ input, select, textarea {
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
+<<<<<<< HEAD
 		/*background-image: url("../../images/mod-logo.jpg");*/
+=======
+	/*	background-image: url("../../images/mod-logo.jpg");*/
+>>>>>>> 8865139e22e1798f6dd618ba40d5c378b4838651
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3959,6 +3963,7 @@ input, select, textarea {
 			visibility: visible;
 		}
 		.exterior{
+<<<<<<< HEAD
 			background-color: rgb(79, 167, 79);
 			position: relative;
 			height: 900px;
@@ -3988,3 +3993,40 @@ input, select, textarea {
 			height: 300px;
 			border-radius: 50%;
 		}
+=======
+			background-color: rgb(33, 94, 33);
+			position: relative;
+			width: 600px;
+			height: 600px;
+			border-radius: 50%;
+		}
+		.blanco{
+			background-color: beige;
+			position: absolute;
+			width: 400px;
+			height: 400px;
+			top:100px;
+			left: 100px;
+			border-radius: 50%;
+		}
+		
+		.interior{
+			background-color: rgb(234, 97, 38);
+			position: absolute;
+			width: 200px;
+			height: 200px;
+			top:100px;
+			right:100px;
+			border-radius: 50%;
+			
+		}
+		span{ 
+		  position:absolute;
+		  top: 40%;
+		  right:17%;
+		  color: beige;
+		  font-family: sans-serif;
+		  font-size: 1em;
+		  font-weight: 800;}
+		  
+>>>>>>> 8865139e22e1798f6dd618ba40d5c378b4838651
