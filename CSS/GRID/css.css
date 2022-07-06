@@ -37,7 +37,7 @@ body{
 }
 
 .lateral{
-    background-color: rgb(168, 147, 28);
+    background-color: rgb(240, 219, 115);
 
     grid-area: lateral;
     display: flex;
@@ -50,7 +50,7 @@ body{
     text-align: center;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center ;
     height:100px;
 
 }
@@ -64,6 +64,12 @@ body{
 .pie{
     background-color: rgb(101, 102, 182);
     grid-area:pie;
+   text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    height:100px;
+
 }
 @media screen and (max-width: 760px){
     .contenedor{
