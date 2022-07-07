@@ -35,8 +35,9 @@ body{
     text-align: center;
     animation-name: mov;
     animation-duration: 3s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
     animation-fill-mode: forwards;
+    
 }
 @keyframes mov{
    /* from {right:200px;}
