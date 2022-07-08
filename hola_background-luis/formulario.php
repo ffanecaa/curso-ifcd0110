@@ -33,7 +33,28 @@
     <?php
     echo"<h1><br>hola mundo</h1>";
    // echo json_encode ($-SERVER);//
-   echo "<h2> me has llamado por el metodo espacio".$_SERVER['REQUEST_METHOD']. "</h2>";
+   $metodo=$_SERVER["REQUEST_METHOD"];
+   if($metodo == "GET"){
+    echo "<h2> me has llamado por el metodo get</h2>";
+    
+    echo "tu nombre es:" .$_GET['nombre']."</h2><br>";
+    echo "tu email es:" .$_GET['email']."</h2><br>";
+    echo "tu edad es:" .$_GET['edad']."</h2><br>";
+    echo "tu telefono es:" .$_GET['tel']."</h2><br>";
+    
+    exit;
+}
+   if($metodo  == "POST"){
+    echo "<h2> me has llamado por el metodo post</h2>";
+    echo "tu nombre es:" .$_POST['nombre']."</h2><br>";
+    echo "tu email es:" .$_POST['email']."</h2><br>";
+    echo "tu edad es:" .$_POST['edad']."</h2><br>";
+    echo "tu telefono es:" .$_POST['tel']."</h2><br>";
+    
+    exit;
+}
+   echo "<h2> me has llamado por el metodo espacio".$metodo."</h2>";
+   exit;
     ?>
 </body>
 </html>
