@@ -30,5 +30,10 @@
         Background igual que el de index     
         -->
     </div>
+    <?php
+    echo"<h1><br>hola mundo</h1>";
+   // echo json_encode ($-SERVER);//
+   echo "<h2> me has llamado por el metodo espacio".$_SERVER['REQUEST_METHOD']. "</h2>";
+    ?>
 </body>
 </html>
