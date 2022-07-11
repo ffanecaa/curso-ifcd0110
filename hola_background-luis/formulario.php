@@ -35,20 +35,20 @@
    // echo json_encode ($-SERVER);//
    $metodo=$_SERVER["REQUEST_METHOD"];
    if($metodo == "GET"){
-    echo "<h2> me has llamado por el metodo get</h2>";
+    echo "<h2> me has llamado por el metodo get";
     
-    echo "tu nombre es:" .$_GET['nombre']."</h2><br>";
-    echo "tu email es:" .$_GET['email']."</h2><br>";
-    echo "tu edad es:" .$_GET['edad']."</h2><br>";
-    echo "tu telefono es:" .$_GET['tel']."</h2><br>";
+    echo "tu nombre es:" .$_GET['nombre']."<br>";
+    echo "tu email es:" .$_GET['email']."<br>";
+    echo "tu edad es:" .$_GET['edad']."<br>";
+    echo "tu telefono es:" .$_GET['tel']."</h2>";
     
     exit;
 }
    if($metodo  == "POST"){
     echo "<h2> me has llamado por el metodo post</h2>";
-    echo "tu nombre es:" .$_POST['nombre']."</h2><br>";
-    echo "tu email es:" .$_POST['email']."</h2><br>";
-    echo "tu edad es:" .$_POST['edad']."</h2><br>";
+    echo "tu nombre es:" .$_POST['nombre']."<br>";
+    echo "tu email es:" .$_POST['email']."<br>";
+    echo "tu edad es:" .$_POST['edad']."<br>";
     echo "tu telefono es:" .$_POST['tel']."</h2><br>";
     
     exit;
