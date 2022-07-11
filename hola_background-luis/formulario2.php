@@ -8,7 +8,7 @@
 </head>
 <body>
  <?php if(isset($_POST['nombre'])){?>  
-    <button onclick="javascript:history.back();"> volver </button>
+    <button onclick="javascript:history.back();"> >>volver </button>
     <ul>
         <li> Nombre: <b><?php echo $_POST['nombre'];?></b> </li>
         <li> edad:<b> <?php echo $_POST['edad'];?></b> </li>
