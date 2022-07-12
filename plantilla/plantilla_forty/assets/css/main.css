@@ -3993,13 +3993,7 @@ input, select, textarea {
 			height: 300px;
 			border-radius: 50%;
 		}
-=======
-			background-color: rgb(33, 94, 33);
-			position: relative;
-			width: 600px;
-			height: 600px;
-			border-radius: 50%;
-		}
+		
 		.blanco{
 			background-color: beige;
 			position: absolute;
@@ -4028,5 +4022,3 @@ input, select, textarea {
 		  font-family: sans-serif;
 		  font-size: 1em;
 		  font-weight: 800;}
-		  
->>>>>>> 8865139e22e1798f6dd618ba40d5c378b4838651
