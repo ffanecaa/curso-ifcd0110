@@ -9,6 +9,8 @@ body{
     color: black;
     font-size: 16px;
 }
+
+
 .contenedor{
     width: 90%;
     max-width: 1900px;
@@ -39,9 +41,9 @@ body{
     color:white;
 }
 a{
-    color:rgb(145, 75, 25);
+    color:rgb(187, 59, 20);
     text-decoration: none;
-    border:1px solid rgb(145, 75, 25)
+    border:2px solid black
     
 
 }
@@ -69,27 +71,10 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
-}/*
-.wid1, .wid2{
-    background-color: rgb(56, 108, 150);
-    color: aliceblue;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center ;
-    height:100px;
-
 }
-    .wid1{
-        grid-area: wid1;
-    }
-.wid2{
-    grid-area:wid2;
-}
-*/
 .pie{
-    background-color: rgb(109, 97, 97);
-
+    background-color: #000000;
+    color:beige;
     grid-area:pie;
    text-align: center;
     display: flex;
