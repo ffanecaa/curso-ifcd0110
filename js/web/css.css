@@ -41,23 +41,24 @@ body{
 a{
     color:rgb(145, 75, 25);
     text-decoration: none;
-    font-size: 2em;
-    display: inline-block;
     border:1px solid rgb(145, 75, 25)
     
 
 }
 nav{
     text-align:right;
-a
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 2em;
 }
 
 
 
 
 .contenido{
-    background-color: rgba(145, 75, 25, 0.6);
-    background-color: rgb(145, 75, 25,);
+    
+    
    grid-area: contenido;
 }
 
@@ -87,7 +88,8 @@ a
 }
 */
 .pie{
-    background-color: rgba(145, 75, 25, 0.6);
+    background-color: rgb(109, 97, 97);
+
     grid-area:pie;
    text-align: center;
     display: flex;
@@ -119,6 +121,6 @@ background-size:cover ;
 ul{
     list-style:none;
     text-align: center;
-    color: beige;
+    
     
 }
