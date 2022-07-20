@@ -16,7 +16,7 @@ body{
     max-width: 1900px;
     margin: 20px auto;
     display: grid;
-    grid-gap: 20px;
+    grid-gap: 18px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, auto);
     grid-template-areas: "header header header"
@@ -71,12 +71,12 @@ nav{
 }
 
 .lateral{
-    background-color: rgb(133, 133, 145);
-
+    
     grid-area: lateral;
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 .pie{
     background-color:rgb(19, 19, 19);
@@ -91,19 +91,16 @@ nav{
 }
 @media screen and (max-width: 760px){
     .contenedor{
-    
+    /*background-color: grey;*/
     grid-template-areas: "header header header"
                         "contenido contenido contenido"
                         "lateral lateral lateral"
                         "wid1 wid1 wid2 "
                         "pie pie pie "
     
-    }
-    .lateral{
-        height: 300px;
-    }
-    
-}
+    }}
+   
+ 
 #as{
 background-image: url("macc.jpg");
 background-position: center;
@@ -121,6 +118,5 @@ background-size:cover ;
 ul{
     list-style:none;
     text-align: center;
-    
-    
+    justify-items: flex-start;
 }
