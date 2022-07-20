@@ -26,6 +26,7 @@ body{
 }
 .header{
     background-color: rgb(133, 133, 145);
+    background-image: url"(guitar.jpg)";
     color: beige;
     grid-area: header;
     height: 100px;
