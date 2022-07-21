@@ -17,7 +17,7 @@ edad = prompt('introduce tu edad');
 if(Number (edad) == edad){
   if(edad<18){
     alert('tienes que ser mayor que 18 años');
-    window.location.href='https//:www.google.com';
+    window.location.href='http://www.google.com';
   }
 
 
