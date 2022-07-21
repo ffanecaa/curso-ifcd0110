@@ -1,0 +1,1 @@
+//salida con alert entrada datos prompt//
