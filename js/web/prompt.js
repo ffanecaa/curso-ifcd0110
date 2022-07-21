@@ -12,7 +12,7 @@ document.getElementById('ele').innerHTML=` la edad introducida es <h1> ${edad}</
 
 //creamos un condicional para saber si han escrito un numero //
 
-let edad;
+/*let edad;
 edad = prompt('introduce tu edad');
 if(Number (edad) == edad){
   if(edad<18){
@@ -25,4 +25,23 @@ document.getElementById('ele').innerHTML=` la edad introducida es <h1> ${edad}</
 }else {
     alert('tiene que ser un numero ');
     window.location.reload();
-}
+}*/
+//ejercicio notas  y hacer un alert de suficiente a //
+
+/*sobresaliente;
+notable;
+bien;
+ suficiente;
+insuficiente;*/
+
+
+let nota;
+nota = prompt ( 'introduce tu nota');
+ if( Number(nota) == nota){
+    if (nota >0 & nota< 5) alert ( 'tienes un insuficiente');
+    if (nota >5 & nota< 7) alert ( 'tienes un suficiente');
+    if (nota >6 & nota< 8) alert ( 'tienes un bien');
+    if (nota >7 & nota< 9) alert ( 'tienes un notable');
+    if (nota >8 ) alert ( 'tienes un sobresaliente');
+ }
+
