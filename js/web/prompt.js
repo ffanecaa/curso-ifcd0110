@@ -1,4 +1,4 @@
-//salida con alert entrada datos prompt// este lo hice yo
+//salida con alert entrada datos prompt// ESTE LO HICE YO
 /*const number = document.getElementById('ele');
 let edad;
 edad = prompt('Introduce tu edad');
