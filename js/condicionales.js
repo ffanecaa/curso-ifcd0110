@@ -83,7 +83,7 @@ if(!respuesta) console.log(`respuesta tiene el valor false`);
 ****** ejercicio ordena numeros de mayor a menor
 numero a b c
 
-*/
+*//*
 const numbers = document.getElementById('numbers');
 
 const result = document.getElementById('resultado');
@@ -93,23 +93,128 @@ let b = prompt('introduzca segundo numero');
 let c = prompt('introduzca tercer numero');
 
 numbers.textContent = ` los numeros introducidos son ${a},${b},${c}`;
-if(a<=b && a<=c){
-    if(b<c){
+if(a>=b && a>=c){
+    if(b>c){
         resultado.textContent =` el orden es: ${a},${b},${c}`;
     }else {
        
             resultado.textContent =` el orden es: ${a},${c},${b}`;
         }
-    }else{
-        if(b<c){
-            resultado.textContent =` el orden es: ${b},${c},${a}`;
-        }else {
+}else if( b>=a && b>=c){
+     if(a>=c){
+        resultado.textContent = `el orden es ${b}, ${a} ,${c}`;
+     }else{
+        resultado.textContent = `el orden es ${b}, ${c} ,${a}`;
+     }
+
+}else if(c>=a && c>=b){
+    if(a>=b){
+        resultado.textContent = `el orden es ${c}, ${a} ,${b}`;
+     }else{
+        resultado.textContent = `el orden es ${c}, ${b} ,${a}`;
+     }
+}
+*/
            
-                resultado.textContent =` el orden es: ${c},${b},${a}`;
-            }
-    }
-    
+  /*switch 2 tipos :  
+  
+  simple:  
+   switch(evaluacion){
+    case n1:
+        //codigo
+        break;
+        //código
+        break;
+        default:
+            //código
+  }
+
+multiple : 
+  switch(evaluacion){
+    case n1:
+    case n2:
+    case n3:
+        //código
+        break; evitar que se siga ejecutando 
+        default:
+            //código
+  }
+*//*
+let num = 4;
+switch(num){//variable quevamos a ejecutar//
+    case 1: console.log('num tien el valor de 1');
+    break;
+    case 2: console.log( 'Num tiene el valor 2');
+    break;
+    default: console.log('Num no vale ni 1 ni 2');
 
 
+}*/ /*n¡solo sirve de ej pq para parimpar exiteotro metodo q se va a ver
+let num = 8;
+switch(num){
+    case 1: 
+    case 3:
+    case 5:
+        console.log(`${num} es impar`);
+        break;
+        case 2:
+        case 4:
+            case 8:
+          console.log(`${num} es par`);
+}
+hay un tercer caso sintaxis multiple encadenada poca infoooo
+
+*/
+/* OPERADOOOR TERNARIOOOOOO SE USA
+CONDICON SEA TRUE O FALSE
+PUEDE TENER 1 O VARIASSENTENCIAS EN CASOSEPARADASPOR COMAS Y ENTREPARENTISIS
+
+SINTAXIS;: 
+(CONDICION)? true: false
+(condicion)?
+    (primerqa sentencia,
+     segunda sentencia)
+     :
+(primerqa sentencia,
+     segunda sentencia)
 
 
+     ejemplo: 
+
+     let num =1254;*/
+    //(num % 2 == 0) ? console.log(`${num} es par`): console.log(`${num} es impar`) //
+     // tn lo podriamos hacer con condicionales mejor operador tercieario //
+    /* if (num % 2 == 0) console.log(`${num} es par`);//(nopongo llaves pq es solo 1 sentencia)//
+     else console.log(`${num} es impar`)*/
+    /* (num % 2 == 0) ? 
+     (
+        console.log(`${num} es par`),
+     console.log(`${num} es par 2`)
+     )
+     :  
+     (
+        console.log(`${num} es impar`),
+        console.log(`${num} es impar 2`) 
+     ) */
+     /*arrays   permiten almacenar varios datos y agruparlos
+     datos validos en js y separados por comas
+     se pueden mezclar diferentes tipos pero no recomendable.
+  se declaran con corchetes tb pueden ir vacios
+  pueden añadirseo elinarse en el momentoque queramos en otors lenguajes no se puede 
+  
+
+  hsta ahora 
+   let num = 5
+   let array = []  sin especificar
+   let array = [1,2,3,4]
+    cada elemento puede ser identificado por su posicion 0,1,2,3,4...*/
+
+    let numeros = [1,2,3,4,5];
+    console.log(numeros[3]); //quierosaber posicion entre corchetes posicion//
+    console.log(numeros);
+    console.log(numeros[4]+numeros[1]);//asi los suma  7 //
+    let palabras = ['hola',' estamos' ,'en' ,'youtube'];
+    console.log(palabras[0]+palabras[1]);
+    console.log(palabras[1].length);
+    //tb escrito condolar//
+    console.log(`la palabra ${palabras[1]} tienen ${palabras[1].length} letras`);
