@@ -209,7 +209,7 @@ SINTAXIS;:
    let array = [1,2,3,4]
     cada elemento puede ser identificado por su posicion 0,1,2,3,4...*/
 
-    let numeros = [1,2,3,4,5];
+  /*  let numeros = [1,2,3,4,5];
     console.log(numeros[3]); //quierosaber posicion entre corchetes posicion//
     console.log(numeros);
     console.log(numeros[4]+numeros[1]);//asi los suma  7 //
@@ -217,4 +217,99 @@ SINTAXIS;:
     console.log(palabras[0]+palabras[1]);
     console.log(palabras[1].length);
     //tb escrito condolar//
-    console.log(`la palabra ${palabras[1]} tienen ${palabras[1].length} letras`);
+    console.log(`la palabra ${palabras[1]} tienen ${palabras[1].length} letras`);*/
+
+
+
+    let number= [1,2,3,4,5];
+
+
+    //arraysPROPIEDAD
+    //.lenght- DEVUELVE EL NUMERO DE POSICIONES   quecontiene el Array
+
+//console.log(number.length); nos da 5 
+ 
+ // METODOS:
+// Array.isArray() devuelve true si la variable es array 
+let numbers = 4;
+
+/* console.log(Array.isArray(numbers));  nos da false pq nolo es 
+ console.log(Array.isArray(number));  nos da true pqlo es */
+
+
+              /*   Eliminar un elemento :
+    .shift()  el primer elemenot 
+   .pop()  el ultimo elemento  */
+
+/*
+   console.log(number);
+   number.shift();
+   console.log(number);
+   number.pop();
+   console.log(number);
+
+   */
+
+        /*añadir elementos:
+        .push() alfinal
+        .unsshift()  al principio  */
+
+     /*   console.log(number);
+        let newLenght = number.push(6);
+        console.log(number);
+        let newLenght2= number.unshift(0);
+        console.log(number);  */
+ 
+        /* buscar :
+         .indexOf-primernumeroque coincide con elsolicitado 
+         .lastIndexOf-ultimo q coincide */
+
+      /*   console.log(number);
+         console.log(number.indexOf(2));  */
+
+         /* invertir colocacion 
+         .reverse() */ 
+
+       /*  console.log(number);
+         number.reverse();
+         console.log(number);  */
+
+     /*
+        d.join()  evuelve string con el separador que indicamos, sinoindicamos son comas
+          */
+
+       /* console.log(number);
+        
+        console.log(number.join('bb'));*/
+
+       /* .splice elimina tiene 3 praametro
+       a 
+           console.log(number);
+           number.splice(3);
+           console.log(number); elimina todo a partir posicion3 1,2,3*/
+     // b con segundo valor 
+     /* console.log(number);
+      number.splice(2,2);
+      console.log(number);1,2,5  borra 2 valores a partir posicion 2  */
+
+
+      //c  sile damos 3 valores : añade el 3 elementos
+
+      console.log(number);
+      number.splice(3, 2, 6,25);
+      console.log(number);  1,2,3,6,25
+
+
+
+
+
+
+
+       
+
+
+
+        
+
+
+

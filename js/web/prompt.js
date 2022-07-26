@@ -35,7 +35,7 @@ bien;
 insuficiente;*/
 
 
-let nota;
+/*let nota;
 nota = prompt ( 'introduce tu nota');
  if( Number(nota) == nota){
     if (nota >0 & nota< 5) alert ( 'tienes un insuficiente');
@@ -45,3 +45,51 @@ nota = prompt ( 'introduce tu nota');
     if (nota >8 ) alert ( 'tienes un sobresaliente');
  }
 
+*/
+
+
+let nota;
+nota = prompt ('introduce tu nota');
+
+
+switch (Number(nota)){  // funcion incompatibilidad entre prompt //
+    case 0:
+      nota = 'muy defocoente';
+  break;
+   case 1: 
+    nota = "insuficiente" ;
+    break;
+    case 2: 
+    nota = "insuficiente" ;
+    break; 
+    case 3: 
+    nota = "insuficiente" ;
+    break;
+    case 4:
+      nota = 'muy defocoente';
+  break;
+   case 5: 
+    nota = "suficiente" ;
+    break;
+    case 6: 
+    nota = "bien" ;
+    break; 
+    case 7: 
+    nota = "bien" ;
+    break;
+    case 8:
+      nota = 'notable';
+  break;
+   case 9: 
+    nota = "sobre" ;
+    break; 
+    case 10 :
+      nota= "sobresaliente" ;
+    break; 
+   
+    
+   
+    
+
+}
+document.getElementById("ele").innerHTML = nota;
